@@ -1,8 +1,11 @@
+import GlobalStyle from "./styles/GlobalStyle";
+
 function App() {
   return (
-    <div>
+    <>
       <h1>Agibank Challenge</h1>
-    </div>
+      <GlobalStyle />
+    </>
   );
 }
 
