@@ -1,10 +1,9 @@
-import { Header } from "../Header";
 import { Container } from "./styles";
 
-export function Layout() {
+export function Header() {
   return (
     <Container>
-      <Header />
+      <h3>agibank-challenge</h3>
     </Container>
   );
 }
