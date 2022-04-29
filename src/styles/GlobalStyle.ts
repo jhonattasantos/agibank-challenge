@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   :root{
+    --body-bg:#EBF6FF;
     --text-color: #1e1e1e;
   }
 
@@ -24,6 +25,6 @@ export default createGlobalStyle`
   }
 
   body{
-    background-color: #EBF6FF;
+    background-color: var(--body-bg);
   }
 `;
