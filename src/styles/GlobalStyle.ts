@@ -4,6 +4,7 @@ export default createGlobalStyle`
   :root{
     --body-bg:#F2F2F2;
     --text-color: #1e1e1e;
+    --btn-primary: #40189D;
   }
 
   * {

@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Card = styled.div`
     margin: 18px 0;
+    background-color: #fff;
+    padding: 20px;
+
+    border-radius: 10px;
 `
 
-export const PeopleListWrapper = styled.ul`
+export const Wrapper = styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     justify-self: center;
     

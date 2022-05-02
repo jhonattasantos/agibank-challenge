@@ -3,7 +3,7 @@ import { Container } from "./styles";
 export function Header() {
   return (
     <Container>
-      <h3>agibank-challenge</h3>
+      <h3>Agibank Challenge</h3>
     </Container>
   );
 }
